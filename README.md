@@ -29,6 +29,7 @@ This contains train dataset on which model has to be trained, which contains par
 5. Now I scaled the features using **sklearn's Standard Scalar** to feed as input to the models.
 
 6. Now tested multiple models using sklearn's K-Folds techinque.
+<img src="Model_results.png" width="200" >
 
 7. Now using these models, I created two new models: **Stacking** and **Voting**.
 
