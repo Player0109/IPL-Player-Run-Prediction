@@ -19,10 +19,10 @@ This contains train dataset on which model has to be trained, which contains par
 
 2. Analyzing the Data I found that the variable Highest Score (HS) and Average (Avg) were stored as string. So I converted them to float.
 
-3. Created some New Features using the existing Features. Such as:
-**Runs from Boundary** = 4\***4s** + 6\***6s**
-**Runs without Boundary** = **Total Runs** - **Runs from Boundary**
-**StrikeRate without Boundary** = **Runs without Boundary** / ( **Number of Balls Played** - **4s** - **6s** )
+3. Created some New Features using the existing Features. Such as:<br>
+**Runs from Boundary** = 4\***4s** + 6\***6s**<br>
+**Runs without Boundary** = **Total Runs** - **Runs from Boundary**<br>
+**StrikeRate without Boundary** = **Runs without Boundary** / ( **Number of Balls Played** - **4s** - **6s** )<br>
 
 4. Now I plotted all the features using plots such as **Area plot, KDE plot, Heatmap**  to get more information about the features.
 
