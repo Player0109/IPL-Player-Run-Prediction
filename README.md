@@ -25,6 +25,7 @@ This contains train dataset on which model has to be trained, which contains par
 **StrikeRate without Boundary** = **Runs without Boundary** / ( **Number of Balls Played** - **4s** - **6s** )<br>
 
 4. Now I plotted all the features using plots such as **Area plot, KDE plot, Heatmap**  to get more information about the features.
+<img src="Heatmap.png" width="800" >
 
 5. Now I scaled the features using **sklearn's Standard Scalar** to feed as input to the models.
 
